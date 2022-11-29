@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SiPolicy 
 	xmlns="urn:schemas-microsoft-com:sipolicy">
-	<VersionEx>10.0.25211.0</VersionEx>
+	<VersionEx>10.0.25245.0</VersionEx>
 	<PolicyTypeID>{D2BDA982-CCF6-4344-AC5B-0B44427B6816}</PolicyTypeID>
 	<PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
 	<Rules>
@@ -529,6 +529,10 @@
 		<Deny ID="ID_DENY_PIDDRV64_SHA256" FriendlyName="piddrv64.sys Hash Sha256" Hash="B97F870C501714FA453CF18AE8A30C87D08FF1E6D784AFDBB0121AEA3DA2DC28" />
 		<Deny ID="ID_DENY_PIDDRV64_SHA1_PAGE" FriendlyName="piddrv64.sys Hash Page Sha1" Hash="C978063E678233C5EFB8F002FEF000FD479CC632" />
 		<Deny ID="ID_DENY_PIDDRV64_SHA256_PAGE" FriendlyName="piddrv64.sys Hash Page Sha256" Hash="1081CCD57FD35998634103AE1E736638D82351092ACD30FE75084EA6A08CA0F7" />
+		<Deny ID="ID_DENY_PHYDMACC_1" FriendlyName="phydmaccx64\f7b3112b9745b766c8359d25e315975d3159935a8ddb3e3035d21ed124a9013f Hash Sha1" Hash="200ABD07303234FC114360D9DABC38DA1F1F2A22"/>
+		<Deny ID="ID_DENY_PHYDMACC_2" FriendlyName="phydmaccx64\f7b3112b9745b766c8359d25e315975d3159935a8ddb3e3035d21ed124a9013f Hash Sha256" Hash="743302AF4224D5F44489290C01391C03B928126D726B72E7602FE5760E6D9519"/>
+		<Deny ID="ID_DENY_PHYDMACC_3" FriendlyName="phydmaccx64\f7b3112b9745b766c8359d25e315975d3159935a8ddb3e3035d21ed124a9013f Hash Page Sha1" Hash="84B91B1AED8F83DE14323089148BE2577FDC826C"/>
+		<Deny ID="ID_DENY_PHYDMACC_4" FriendlyName="phydmaccx64\f7b3112b9745b766c8359d25e315975d3159935a8ddb3e3035d21ed124a9013f Hash Page Sha256" Hash="B8502DB6B8947E5D852102166D0BEF8252EA3431D582E968EF44C35E56609C91"/>
 		<Deny ID="ID_DENY_PHYMEMX64_SHA1" FriendlyName="phymemx64 Hash Sha1" Hash="3C9F40AC72B0202CB40627FDEB7298079187193A" />
 		<Deny ID="ID_DENY_PHYMEMX64_SHA256" FriendlyName="phymemx64 Hash Sha256" Hash="A6AE7364FD188C10D6B5A729A7FF58A3EB11E7FEB0D107D18F9133655C11FB66" />
 		<Deny ID="ID_DENY_PHYMEMX64_SHA1_PAGE" FriendlyName="phymemx64 Hash Page Sha1" Hash="6E7D8ABF7F81A2433F27B052B3952EFC4B9CC0B1" />
@@ -733,6 +737,7 @@
 		<FileAttrib ID="ID_FILEATTRIB_ASWARPOT" FriendlyName="Avast aswArpot FileAttribute" FileName="aswArPot.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="21.4.65535.65535" />
 		<FileAttrib ID="ID_FILEATTRIB_ATILLK" FriendlyName="atillk64 FileAttribute" FileName="atillk64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
 		<FileAttrib ID="ID_FILEATTRIB_ATSZIO" FriendlyName="ATSZIO.sys FileAttribute" FileName="ATSZIO.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
+		<FileAttrib ID="ID_FILEATTRIB_AVGELAM" FriendlyName="Avast aswElam/avgElam Overpermissive ELAM FileAttribute" FileName="aswElam.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="21.6.400.65535" />
 		<FileAttrib ID="ID_FILEATTRIB_BSMI" FriendlyName="" FileName="BSMI.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.0.0.3" />
 		<FileAttrib ID="ID_FILEATTRIB_BS_HWMIO64" FriendlyName="" FileName="BS_HWMIO64_W10.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="10.0.1806.2200" />
 		<FileAttrib ID="ID_FILEATTRIB_BS_I2CIO" FriendlyName="" FileName="BS_I2cIo.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.1.0.0" />
@@ -748,15 +753,15 @@
 		<FileAttrib ID="ID_FILEATTRIB_IQVW64" FriendlyName="IQVW64.sys FileAttribute" FileName="iQVW64.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.4.0.0" />
 		<FileAttrib ID="ID_FILEATTRIB_KEVP64" FriendlyName="kevp64.sys FileAttribute" FileName="kEvP64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
 		<FileAttrib ID="ID_FILEATTRIB_LHA" FriendlyName="LHA.sys FileAttribute" FileName="LHA.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
-		<FileAttrib ID="ID_FILEATTRIB_LIBNICM_DRIVER" FriendlyName="" FileName="libnicm.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.1.12.0" />
+		<FileAttrib ID="ID_FILEATTRIB_LIBNICM_DRIVER" FriendlyName="" FileName="libnicm.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.1.11.0" />
 		<FileAttrib ID="ID_FILEATTRIB_LV561V64" FriendlyName="LV561V64 LogiTech FileAttribute" FileName="Lv561av.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
 		<FileAttrib ID="ID_FILEATTRIB_LV_DIAG" FriendlyName="LenovoDiagnosticsDriver FileAttribute" FileName="LenovoDiagnosticsDriver.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="2.0.0.0" />
 		<FileAttrib ID="ID_FILEATTRIB_MONITOR" FriendlyName="IOBit Monitor.sys FileAttribute" FileName="Monitor.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="15.0.0.2" />
 		<FileAttrib ID="ID_FILEATTRIB_MTCBSV64" FriendlyName="mtcBSv64.sys FileAttribute" FileName="mtcBSv64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="21.2.0.0" />
 		<FileAttrib ID="ID_FILEATTRIB_MYDRIVERS" FriendlyName="mydrivers.sys FileAttribute" FileName="mydrivers.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
 		<FileAttrib ID="ID_FILEATTRIB_NCHGBIOS2X64" FriendlyName="" FileName="NCHGBIOS2x64.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="4.2.4.0" />
-		<FileAttrib ID="ID_FILEATTRIB_NICM_DRIVER" FriendlyName="" FileName="NICM.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.1.12.0" />
-		<FileAttrib ID="ID_FILEATTRIB_NSCM_DRIVER" FriendlyName="" FileName="nscm.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.1.12.0" />
+		<FileAttrib ID="ID_FILEATTRIB_NICM_DRIVER" FriendlyName="" FileName="NICM.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.1.11.0" />
+		<FileAttrib ID="ID_FILEATTRIB_NSCM_DRIVER" FriendlyName="" FileName="nscm.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.1.11.0" />
 		<FileAttrib ID="ID_FILEATTRIB_NVFLASH" FriendlyName="Nvidia NVFlash FileAttribute" FileName="nvflash.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.9.65535.65535"/>
 		<FileAttrib ID="ID_FILEATTRIB_PANIOMON_1" FriendlyName="PanMonFltx64\06508aacb4ed0a1398a2b0da5fa2dbf7da435b56da76fd83c759a50a51c75caf FileAttribute" FileName="PanMonFltX64.sys" MinimumFileVersion="1.0.0.1" />
 		<FileAttrib ID="ID_FILEATTRIB_PANIO_1" FriendlyName="PanIOx64\6b830ea0db6546a044c9900d3f335e7820c2a80e147b0751641899d1a5aa8f74 FileAttribute" FileName="PanIOx64.sys" MinimumFileVersion="1.0.0.1" />
@@ -775,6 +780,7 @@
 		<FileAttrib ID="ID_FILEATTRIB_SANDRA_DRIVER" FriendlyName="" FileName="sandra.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="10.12.0.0" />
 		<FileAttrib ID="ID_FILEATTRIB_SEGWINDRVX64" FriendlyName="segwindrvx64.sys FileAttribute" FileName="segwindrvx64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="100.0.7.2" />
 		<FileAttrib ID="ID_FILEATTRIB_SUPERBMC" FriendlyName="Superbmc FileAttribute" FileName="superbmc.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="2.2.1.0" />
+		<FileAttrib ID="ID_FILEATTRIB_TMEL" FriendlyName="TrendMicro TMEL Overpermissive ELAM FileAttribute" FileName="Tmel.sys" MinimumFileVersion="1.6.0.1002" MaximumFileVersion="1.6.0.1004" />
 		<FileAttrib ID="ID_FILEATTRIB_TREND_MICRO" FriendlyName="TmComm.sys" FileName="TmComm.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="8.0.0.0" />
 		<FileAttrib ID="ID_FILEATTRIB_VIRAGT" FriendlyName="viragt.sys 32-bit" FileName="viragt.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.80.0.0" />
 		<FileAttrib ID="ID_FILEATTRIB_VIRAGT64" FriendlyName="viragt64.sys" FileName="viragt64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.0.0.11" />
@@ -1245,6 +1251,25 @@
 			<CertPublisher Value="AVAST Software s.r.o." />
 			<FileAttribRef RuleID="ID_FILEATTRIB_ASWARPOT" />
 		</Signer>
+		<Signer ID="ID_SIGNER_TMEL" Name="Microsoft Windows Third Party Component CA 2014">
+			<CertRoot Type="TBS" Value="D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE" />
+			<FileAttribRef RuleID="ID_FILEATTRIB_TMEL" />
+		</Signer>
+		<Signer ID="ID_SIGNER_MS_ELAM" Name="Microsoft Code Signing PCA 2010">
+			<CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+			<FileAttribRef RuleID="ID_FILEATTRIB_TMEL" />
+			<FileAttribRef RuleID="ID_FILEATTRIB_AVGELAM" />
+		</Signer>
+		<Signer ID="ID_SIGNER_AVGELAM_1" Name="DigiCert High Assurance Code Signing CA-1">
+			<CertRoot Type="TBS" Value="1D7E838ACCD498C2E5BA9373AF819EC097BB955C" />
+			<CertPublisher Value="AVAST Software s.r.o." />
+			<FileAttribRef RuleID="ID_FILEATTRIB_AVGELAM" />
+		</Signer>
+		<Signer ID="ID_SIGNER_AVGELAM_2" Name="DigiCert SHA2 Assured ID Code Signing CA">
+			<CertRoot Type="TBS" Value="E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65" />
+			<CertPublisher Value="AVAST Software s.r.o." />
+			<FileAttribRef RuleID="ID_FILEATTRIB_AVGELAM" />
+		</Signer>
 		<Signer ID="ID_SIGNER_BAOJI" Name="VeriSign Class 3 Code Signing 2010 CA - Baoji zhihengtaiye co.,ltd">
 			<CertRoot Type="TBS" Value="ED37AD43BC52426943019F77F35ED1A6B063B5B7" />
 		</Signer>
@@ -1299,6 +1324,8 @@
 					<DeniedSigner SignerId="ID_SIGNER_ASWARPOT_4" />
 					<DeniedSigner SignerId="ID_SIGNER_ASWARPOT_5" />
 					<DeniedSigner SignerId="ID_SIGNER_ASWARPOT_6" />
+					<DeniedSigner SignerId="ID_SIGNER_AVGELAM_1" />
+					<DeniedSigner SignerId="ID_SIGNER_AVGELAM_2" />
 					<DeniedSigner SignerId="ID_SIGNER_BAOJI" />
 					<DeniedSigner SignerId="ID_SIGNER_BEIJING_CHUNBAI" />
 					<DeniedSigner SignerId="ID_SIGNER_BEIJING_VSK" />
@@ -1334,6 +1361,7 @@
 					<DeniedSigner SignerId="ID_SIGNER_MIMIKATZ_KERNEL" />
 					<DeniedSigner SignerId="ID_SIGNER_MIMIKATZ_KERNEL_SHA2" />
 					<DeniedSigner SignerId="ID_SIGNER_MIMIKATZ_USER" />
+					<DeniedSigner SignerId="ID_SIGNER_MS_ELAM" />
 					<DeniedSigner SignerId="ID_SIGNER_MYDRIVERS_1" />
 					<DeniedSigner SignerId="ID_SIGNER_MYDRIVERS_2" />
 					<DeniedSigner SignerId="ID_SIGNER_MYDRIVERS_3" />
@@ -1353,6 +1381,7 @@
 					<DeniedSigner SignerId="ID_SIGNER_PHYMEM_1" />
 					<DeniedSigner SignerId="ID_SIGNER_PHYMEM_2" />
 					<DeniedSigner SignerId="ID_SIGNER_SYMANTEC_CLASS_3" />
+					<DeniedSigner SignerId="ID_SIGNER_TMEL" />
 					<DeniedSigner SignerId="ID_SIGNER_TRUST_ASIA" />
 					<DeniedSigner SignerId="ID_SIGNER_VBOX" />
 					<DeniedSigner SignerId="ID_SIGNER_VERISIGN_2004" />
@@ -1841,6 +1870,10 @@
 					<FileRuleRef RuleID="ID_DENY_PIDDRV64_SHA256" />
 					<FileRuleRef RuleID="ID_DENY_PIDDRV64_SHA1_PAGE" />
 					<FileRuleRef RuleID="ID_DENY_PIDDRV64_SHA256_PAGE" />
+					<FileRuleRef RuleID="ID_DENY_PHYDMACC_1" />
+					<FileRuleRef RuleID="ID_DENY_PHYDMACC_2" />
+					<FileRuleRef RuleID="ID_DENY_PHYDMACC_3" />
+					<FileRuleRef RuleID="ID_DENY_PHYDMACC_4" />
 					<FileRuleRef RuleID="ID_DENY_PHYMEMX64_SHA1" />
 					<FileRuleRef RuleID="ID_DENY_PHYMEMX64_SHA256" />
 					<FileRuleRef RuleID="ID_DENY_PHYMEMX64_SHA1_PAGE" />
@@ -2060,7 +2093,7 @@
 		</Setting>
 		<Setting Provider="PolicyInfo" Key="Information" ValueName="Id">
 			<Value>
-				<String>10.0.25211.0</String>
+				<String>10.0.25245.0</String>
 			</Value>
 		</Setting>
 		<Setting Provider="PolicyInfo" Key="NoRevalidationUponRefresh" ValueName="NoRevalidationUponRefreshValue">
