@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy">
-  <VersionEx>10.0.25880.0</VersionEx>
+  <VersionEx>10.0.25895.0</VersionEx>
   <PolicyTypeID>{D2BDA982-CCF6-4344-AC5B-0B44427B6816}</PolicyTypeID>
   <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
   <Rules>
@@ -992,6 +992,18 @@
     <Deny ID="ID_DENY_SUPERBMC_15" FriendlyName="superbmc.sys\ee6bfdf5748fbbf579d6176026626ef39a0673e307c2029f5633e80f0babef54 Hash Sha256" Hash="976C015B28197CCD15F807B776F705BDF612FC622FB0A4B9901B90F180BF2F8A" />
     <Deny ID="ID_DENY_SUPERBMC_16" FriendlyName="superbmc.sys\ee6bfdf5748fbbf579d6176026626ef39a0673e307c2029f5633e80f0babef54 Hash Page Sha1" Hash="2303BEAB201455CC543E0CCE9D4D8698338787EB" />
     <Deny ID="ID_DENY_SUPERBMC_17" FriendlyName="superbmc.sys\ee6bfdf5748fbbf579d6176026626ef39a0673e307c2029f5633e80f0babef54 Hash Page Sha256" Hash="161DC4F7ED741397F6BD6C2B012DBDF6E397CF02212C7DAAF303338206B1E3A7" />
+    <Deny ID="ID_DENY_SYSDRV3S_1" FriendlyName="CodeSys SysDrv3S\0dd9daf0852a5b1b436199e9f2bf318f641f43173ab0dc22ad8c7e9cbaee9ad3 Hash Sha1" Hash="3AA0ABAF4EA1F90D1B5D2F26ABE7FE9F0BB14A76" />
+    <Deny ID="ID_DENY_SYSDRV3S_2" FriendlyName="CodeSys SysDrv3S\0dd9daf0852a5b1b436199e9f2bf318f641f43173ab0dc22ad8c7e9cbaee9ad3 Hash Sha256" Hash="8A4E6D1A5E0309EAD41B11CEB479C6A874CF6E57F2B416C12025E1B485009F37" />
+    <Deny ID="ID_DENY_SYSDRV3S_3" FriendlyName="CodeSys SysDrv3S\0dd9daf0852a5b1b436199e9f2bf318f641f43173ab0dc22ad8c7e9cbaee9ad3 Hash Page Sha1" Hash="F4C12BA9B5B73C159EB920060B8E4CEE9D729187" />
+    <Deny ID="ID_DENY_SYSDRV3S_4" FriendlyName="CodeSys SysDrv3S\0dd9daf0852a5b1b436199e9f2bf318f641f43173ab0dc22ad8c7e9cbaee9ad3 Hash Page Sha256" Hash="841C8C6B5D9779B98FB3DB2B90695469FED42885E8F5A81983F35C6B470CCC8F" />
+    <Deny ID="ID_DENY_SYSDRV3S_5" FriendlyName="CodeSys SysDrv3S\161a50482380727ffa0dd94e193a023f4445dddd3a05340fe2db07fc3ec5b5f3 Hash Sha1" Hash="80D203BB42A5D58D87C82481238BFF1A01ECAC6D" />
+    <Deny ID="ID_DENY_SYSDRV3S_6" FriendlyName="CodeSys SysDrv3S\161a50482380727ffa0dd94e193a023f4445dddd3a05340fe2db07fc3ec5b5f3 Hash Sha256" Hash="7A15788A9942659E061E0A51F806E564B2A49ADB7BCB8F6A3548EDD4528426A0" />
+    <Deny ID="ID_DENY_SYSDRV3S_7" FriendlyName="CodeSys SysDrv3S\161a50482380727ffa0dd94e193a023f4445dddd3a05340fe2db07fc3ec5b5f3 Hash Page Sha1" Hash="B1723ED6AD1808E932C3040B5F4744BB9C85DD9F" />
+    <Deny ID="ID_DENY_SYSDRV3S_8" FriendlyName="CodeSys SysDrv3S\161a50482380727ffa0dd94e193a023f4445dddd3a05340fe2db07fc3ec5b5f3 Hash Page Sha256" Hash="20D30D12CAF158058ECDED6BE4282838CA1E328F777DE67D62681891B58E0A13" />
+    <Deny ID="ID_DENY_SYSDRV3S_9" FriendlyName="CodeSys SysDrv3S\cf4efec43474c5aacf4b0971d44eaf8dd6357e594cdb1390085a5070a0df51d4 Hash Sha1" Hash="43D91E7B7B2E65263E40FC2E29F517552A1D2C41" />
+    <Deny ID="ID_DENY_SYSDRV3S_A" FriendlyName="CodeSys SysDrv3S\cf4efec43474c5aacf4b0971d44eaf8dd6357e594cdb1390085a5070a0df51d4 Hash Sha256" Hash="327DD7D2115ED486AD66181E3A0C86AD64F41A6D28943D3E76B1BDE937EAB628" />
+    <Deny ID="ID_DENY_SYSDRV3S_B" FriendlyName="CodeSys SysDrv3S\cf4efec43474c5aacf4b0971d44eaf8dd6357e594cdb1390085a5070a0df51d4 Hash Page Sha1" Hash="1A38DD65ED3E011409F6146ECD6C513E4312D409" />
+    <Deny ID="ID_DENY_SYSDRV3S_C" FriendlyName="CodeSys SysDrv3S\cf4efec43474c5aacf4b0971d44eaf8dd6357e594cdb1390085a5070a0df51d4 Hash Page Sha256" Hash="65D44B0B174524208204C1BCD08A9628B851FB49E22719FF0BA9C05473CCC273" />
     <Deny ID="ID_DENY_SYSINFO_1" FriendlyName="Noriyuki Miyazaki SysInfo\4fea15aabc4fc63a3e991412caf17283bbd257172ef7e255f40f5e22e0286902 Hash Sha1" Hash="E833F4E364DC5EFBABF1570DA86D1FA3E55804A7" />
     <Deny ID="ID_DENY_SYSINFO_2" FriendlyName="Noriyuki Miyazaki SysInfo\4fea15aabc4fc63a3e991412caf17283bbd257172ef7e255f40f5e22e0286902 Hash Sha256" Hash="0122CDCF450F03B95B04560F77C2BB4643F379FBD903B07EA1300F9B974D32A3" />
     <Deny ID="ID_DENY_SYSINFO_3" FriendlyName="Noriyuki Miyazaki SysInfo\7049f3c939efe76a5556c2a2c04386db51daf61d56b679f4868bb0983c996ebb Hash Sha1" Hash="CA88F321631C1552E3E0BCD1F26AD3435CC9F1AE" />
@@ -1050,6 +1062,7 @@
     <Deny ID="ID_DENY_PCHUNTER_1" FriendlyName="PCHunter Driver" FileName="PCHunter.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <Deny ID="ID_DENY_PCHUNTER_2" FriendlyName="PCHunter Driver" FileName="安全专用" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <Deny ID="ID_DENY_PHYMEMX_64" FriendlyName="Phymemx64 Memory Mapping Driver" FileName="phymemx64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
+    <FileAttrib ID="ID_FILEATTRIB_ALSYSIO" FriendlyName="ALSysIO\01af9b2e49907308312be623a125a4cd71da9e626a54dfa746336e5d69c0a70a FileAttribute" FileName="ALSysIO.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="2.0.10.65535" />
     <FileAttrib ID="ID_FILEATTRIB_AMD_RYZEN" FriendlyName="amdryzenmaster.sys" FileName="AMDRyzenMasterDriver.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.5.0.0" />
     <FileAttrib ID="ID_FILEATTRIB_AMDPP" FriendlyName="AMDPowerProfiler.sys FileAttribute" FileName="AMDPowerProfiler.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="6.1.0.0" />
     <FileAttrib ID="ID_FILEATTRIB_ASR_AUTOCHECK_1" FriendlyName="ASRAutoCheck\2aa1b08f47fbb1e2bd2e4a492f5d616968e703e1359a921f62b38b8e4662f0c4 FileAttribute" FileName="AsrAutoChkUpdDrv.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
@@ -1082,6 +1095,7 @@
     <FileAttrib ID="ID_FILEATTRIB_HWINFO_3" FriendlyName="REALiX_HWiNFO64I FileAttribute" FileName="HWiNFO64I.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="8.98.0.0" />
     <FileAttrib ID="ID_FILEATTRIB_HWRWDRV" FriendlyName="HwRwDrv FileAttribute" FileName="HwRwDrv.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_IOBITUNLOCKER" FriendlyName="IObitUnlocker FileAttribute" FileName="IObitUnlocker.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.3.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_IOMEM" FriendlyName="DT Research iomem\2b507e0ad4515d9d47fb7f0bfa1f1eb11de25db4fca49fc1417ea991dc33b6bf FileAttribute" FileName="iomem.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535"/>
     <FileAttrib ID="ID_FILEATTRIB_IQVW64" FriendlyName="IQVW64.sys FileAttribute" FileName="iQVW64.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.4.0.21" />
     <FileAttrib ID="ID_FILEATTRIB_KEVP64" FriendlyName="kevp64.sys FileAttribute" FileName="kEvP64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_LHA" FriendlyName="LHA.sys FileAttribute" FileName="LHA.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
@@ -1116,6 +1130,8 @@
     <FileAttrib ID="ID_FILEATTRIB_SANDRA_DRIVER" FriendlyName="" FileName="sandra.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="10.12.0.0" />
     <FileAttrib ID="ID_FILEATTRIB_SEGWINDRVX64" FriendlyName="segwindrvx64.sys FileAttribute" FileName="segwindrvx64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="100.0.7.2" />
     <FileAttrib ID="ID_FILEATTRIB_SUPERBMC" FriendlyName="Superbmc FileAttribute" FileName="superbmc.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="2.2.1.0" />
+    <FileAttrib ID="ID_FILEATTRIB_SYMELAM" FriendlyName="SymELAM\021badff5a3c84ee422d9fa40a842f89b1c60e0164eabd58da7374327ea99d3c FileAttribute" FileName="SymELAM.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="2.4.0.83" />
+    <FileAttrib ID="ID_FILEATTRIB_SYSDRV3S" FriendlyName="SysDrv3s\0dd9daf0852a5b1b436199e9f2bf318f641f43173ab0dc22ad8c7e9cbaee9ad3 FileAttribute" FileName="SysDrv3S.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.6.0.0" />
     <FileAttrib ID="ID_FILEATTRIB_TMEL" FriendlyName="TrendMicro TMEL Overpermissive ELAM FileAttribute" FileName="Tmel.sys" MinimumFileVersion="1.6.0.1002" MaximumFileVersion="1.6.0.1004" />
     <FileAttrib ID="ID_FILEATTRIB_TREND_MICRO" FriendlyName="TmComm.sys" FileName="TmComm.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="8.0.0.0" />
     <FileAttrib ID="ID_FILEATTRIB_VIRAGT" FriendlyName="viragt.sys 32-bit" FileName="viragt.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.80.0.0" />
@@ -1135,6 +1151,7 @@
       <FileAttribRef RuleID="ID_FILEATTRIB_ATSZIO" />
       <FileAttribRef RuleID="ID_FILEATTRIB_CPUZ_DRIVER" />
       <FileAttribRef RuleID="ID_FILEATTRIB_DRIVER7" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_IOMEM" />
       <FileAttribRef RuleID="ID_FILEATTRIB_IQVW64" />
       <FileAttribRef RuleID="ID_FILEATTRIB_KEVP64" />
       <FileAttribRef RuleID="ID_FILEATTRIB_LHA" />
@@ -1266,6 +1283,7 @@
     <Signer ID="ID_SIGNER_WINDOWS_3RD_PARTY_2014" Name="Microsoft Windows Third Party Component CA 2014">
       <CertRoot Type="TBS" Value="D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE" />
       <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ALSYSIO" />
       <FileAttribRef RuleID="ID_FILEATTRIB_BS_HWMIO64" />
       <FileAttribRef RuleID="ID_FILEATTRIB_BS_MEM" />
       <FileAttribRef RuleID="ID_FILEATTRIB_BS_RCIO" />
@@ -1286,6 +1304,7 @@
       <FileAttribRef RuleID="ID_FILEATTRIB_RTKIO_DRIVER" />
       <FileAttribRef RuleID="ID_FILEATTRIB_RTKIOW10X64_DRIVER" />
       <FileAttribRef RuleID="ID_FILEATTRIB_RZPNK" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_SYSDRV3S" />
       <FileAttribRef RuleID="ID_FILEATTRIB_VIRAGT" />
       <FileAttribRef RuleID="ID_FILEATTRIB_VIRAGT64" />
       <FileAttribRef RuleID="ID_FILEATTRIB_VMDRV" />
@@ -1299,10 +1318,11 @@
     </Signer>
     <Signer ID="ID_SIGNER_VERISIGN_2004" Name="VeriSign Class 3 Code Signing 2004 CA">
       <CertRoot Type="TBS" Value="C7FC1727F5B75A6421A1F95C73BBDB23580C48E5" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ALSYSIO" />
       <FileAttribRef RuleID="ID_FILEATTRIB_CPUZ_DRIVER" />
       <FileAttribRef RuleID="ID_FILEATTRIB_IQVW64" />
       <FileAttribRef RuleID="ID_FILEATTRIB_MTCBSV64" />
-	  <FileAttribRef RuleID="ID_FILEATTRIB_PCDOC" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_PCDOC" />
     </Signer>
     <Signer ID="ID_SIGNER_VERISIGN_2004_BIOSTAR" Name="VeriSign Class 3 Code Signing 2004 CA">
       <CertRoot Type="TBS" Value="C7FC1727F5B75A6421A1F95C73BBDB23580C48E5" />
@@ -1316,7 +1336,7 @@
       <CertPublisher Value="ASUSTeK Computer Inc." />
       <FileAttribRef RuleID="ID_FILEATTRIB_BS_DEF" />
       <FileAttribRef RuleID="ID_FILEATTRIB_BS_DEF_64" />
-	  <FileAttribRef RuleID="ID_FILEATTRIB_WCPU" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_WCPU" />
     </Signer>
     <Signer ID="ID_SIGNER_VERISIGN_2009_BIOSTAR" Name="VeriSign Class 3 Code Signing 2009-2 CA">
       <CertRoot Type="TBS" Value="4CDC38C800761463749C3CBD94A12F32E49877BF" />
@@ -1623,11 +1643,13 @@
       <CertRoot Type="TBS" Value="D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE" />
       <FileAttribRef RuleID="ID_FILEATTRIB_EELAM" />
       <FileAttribRef RuleID="ID_FILEATTRIB_TMEL" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_SYMELAM" />
     </Signer>
     <Signer ID="ID_SIGNER_MS_ELAM_1" Name="Microsoft Code Signing PCA 2010">
       <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
       <FileAttribRef RuleID="ID_FILEATTRIB_AVGELAM" />
       <FileAttribRef RuleID="ID_FILEATTRIB_EELAM" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_SYMELAM" />
       <FileAttribRef RuleID="ID_FILEATTRIB_TMEL" />
     </Signer>
     <Signer ID="ID_SIGNER_AVGELAM_1" Name="DigiCert High Assurance Code Signing CA-1">
@@ -1755,10 +1777,37 @@
       <CertPublisher Value="Noriyuki MIYAZAKI" />
       <FileAttribRef RuleID="ID_FILEATTRIB_OPENLIBSYS" />
     </Signer>
-	<Signer ID="ID_SIGNER_PCDOC" Name="DigiCert EV Code Signing CA">
+    <Signer ID="ID_SIGNER_PCDOC" Name="DigiCert EV Code Signing CA">
       <CertRoot Type="TBS" Value="2D54C16A8F8B69CCDEA48D0603C132F547A5CF75" />
       <CertPublisher Value="PC-Doctor, Inc." />
       <FileAttribRef RuleID="ID_FILEATTRIB_PCDOC" />
+    </Signer>
+    <Signer ID="ID_SIGNER_SYSDRV3S" Name="GlobalSign 3S-Smart">
+      <CertRoot Type="TBS" Value="BD1765C56594221373893EF26D97F88C144FB0E5A0111215B45D7239C3444DF7" />
+      <CertPublisher Value="3S-Smart Software Solutions GmbH" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_SYSDRV3S" />
+    </Signer>
+    <Signer ID="ID_SIGNER_PAVEL_Y_1" Name="DigiCert SHA2 Assured ID Code Signing CA">
+      <CertRoot Type="TBS" Value="E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65" />
+      <CertPublisher Value="Pavel Yosifovich" />
+    </Signer>
+    <Signer ID="ID_SIGNER_PAVEL_Y_2" Name="DigiCert SHA2 High Assurance Code Signing CA">
+      <CertRoot Type="TBS" Value="0BF095B845B69928B5D7DFD1C42AE4F90FEB8DC97F7830598C93E848877021FB" />
+      <CertPublisher Value="Pavel Yosifovich" />
+    </Signer>
+    <Signer ID="ID_SIGNER_ALSYSIO_1" Name="COMODO RSA Code Signing CA">
+      <CertRoot Type="TBS" Value="4805A7E23D6C8FF5E149F197B744BCB2346E73F19A48835A2F64129183981109256B75EA371A331746D01FD4E135AB6E" />
+      <CertPublisher Value="ALCPU" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ALSYSIO" />
+    </Signer>
+    <Signer ID="ID_SIGNER_ALSYSIO_2" Name="UTN-USERFirst-Object">
+      <CertRoot Type="TBS" Value="C45627B5584BF62327DF60D6185744A2D2F2BCBF" />
+      <CertPublisher Value="ALCPU" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ALSYSIO" />
+    </Signer>
+    <Signer ID="ID_SIGNER_MICKS" Name="Microsoft Windows Third Party Component CA 2014">
+      <CertRoot Type="TBS" Value="D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE" />
+      <CertOemID Value="Micks Auto Transport" />
     </Signer>
     <Signer ID="ID_SIGNER_BAOJI" Name="VeriSign Class 3 Code Signing 2010 CA - Baoji zhihengtaiye co.,ltd">
       <CertRoot Type="TBS" Value="ED37AD43BC52426943019F77F35ED1A6B063B5B7" />
@@ -1815,6 +1864,8 @@
           <DeniedSigner SignerId="ID_SIGNER_AGNITUM_2009" />
           <DeniedSigner SignerId="ID_SIGNER_AGNITUM_2010" />
           <DeniedSigner SignerId="ID_SIGNER_AGNITUM_2010_1" />
+          <DeniedSigner SignerId="ID_SIGNER_ALSYSIO_1" />
+          <DeniedSigner SignerId="ID_SIGNER_ALSYSIO_2" />
           <DeniedSigner SignerId="ID_SIGNER_AMDPP" />
           <DeniedSigner SignerId="ID_SIGNER_ATILLK" />
           <DeniedSigner SignerId="ID_SIGNER_ASROCK_RWDRV" />
@@ -1870,6 +1921,10 @@
           <DeniedSigner SignerId="ID_SIGNER_HWRWDRV_1" />
           <DeniedSigner SignerId="ID_SIGNER_HWRWDRV_2" />
           <DeniedSigner SignerId="ID_SIGNER_INTEL_IQVW" />
+          <DeniedSigner SignerId="ID_SIGNER_IOBITUNLOCKER_1" />
+          <DeniedSigner SignerId="ID_SIGNER_IOBITUNLOCKER_2" />
+          <DeniedSigner SignerId="ID_SIGNER_IOBITUNLOCKER_3" />
+          <DeniedSigner SignerId="ID_SIGNER_IOBITUNLOCKER_4" />
           <DeniedSigner SignerId="ID_SIGNER_JCOS_1" />
           <DeniedSigner SignerId="ID_SIGNER_JCOS_2" />
           <DeniedSigner SignerId="ID_SIGNER_JEROMIN_CODY_ERIC" />
@@ -1878,11 +1933,12 @@
           <DeniedSigner SignerId="ID_SIGNER_LV_LOGITECH" />
           <DeniedSigner SignerId="ID_SIGNER_MAN_MUS" />
           <DeniedSigner SignerId="ID_SIGNER_MB_RB_HACKS" />
+          <DeniedSigner SignerId="ID_SIGNER_MICKS" />
           <DeniedSigner SignerId="ID_SIGNER_MIMIKATZ_KERNEL" />
           <DeniedSigner SignerId="ID_SIGNER_MIMIKATZ_KERNEL_SHA2" />
           <DeniedSigner SignerId="ID_SIGNER_MIMIKATZ_USER" />
           <DeniedSigner SignerId="ID_SIGNER_MS_ELAM" />
-		  <DeniedSigner SignerId="ID_SIGNER_MS_ELAM_1" />
+          <DeniedSigner SignerId="ID_SIGNER_MS_ELAM_1" />
           <DeniedSigner SignerId="ID_SIGNER_MYDRIVERS_1" />
           <DeniedSigner SignerId="ID_SIGNER_MYDRIVERS_2" />
           <DeniedSigner SignerId="ID_SIGNER_MYDRIVERS_3" />
@@ -1892,6 +1948,8 @@
           <DeniedSigner SignerId="ID_SIGNER_NVFLASH_3" />
           <DeniedSigner SignerId="ID_SIGNER_OPENLIBSYS"/>
           <DeniedSigner SignerId="ID_SIGNER_PAN" />
+          <DeniedSigner SignerId="ID_SIGNER_PAVEL_Y_1" />
+          <DeniedSigner SignerId="ID_SIGNER_PAVEL_Y_2" />
           <DeniedSigner SignerId="ID_SIGNER_PHYSMEM" />
           <DeniedSigner SignerId="ID_SIGNER_PCDOC"/>
           <DeniedSigner SignerId="ID_SIGNER_PROCEXP_1" />
@@ -1905,6 +1963,7 @@
           <DeniedSigner SignerId="ID_SIGNER_SANDRA" />
           <DeniedSigner SignerId="ID_SIGNER_SANDRA_THAWTE" />
           <DeniedSigner SignerId="ID_SIGNER_SPEEDFAN" />
+          <DeniedSigner SignerId="ID_SIGNER_SYSDRV3S" />  
           <DeniedSigner SignerId="ID_SIGNER_PHYMEM" />
           <DeniedSigner SignerId="ID_SIGNER_PHYMEM_1" />
           <DeniedSigner SignerId="ID_SIGNER_PHYMEM_2" />
@@ -2866,6 +2925,18 @@
           <FileRuleRef RuleID="ID_DENY_SUPERBMC_15" />
           <FileRuleRef RuleID="ID_DENY_SUPERBMC_16" />
           <FileRuleRef RuleID="ID_DENY_SUPERBMC_17" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_1" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_2" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_3" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_4" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_5" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_6" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_7" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_8" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_9" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_A" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_B" />
+          <FileRuleRef RuleID="ID_DENY_SYSDRV3S_C" />
           <FileRuleRef RuleID="ID_DENY_SYSINFO_1" />
           <FileRuleRef RuleID="ID_DENY_SYSINFO_2" />
           <FileRuleRef RuleID="ID_DENY_SYSINFO_3" />
@@ -2939,7 +3010,7 @@
     </Setting>
     <Setting Provider="PolicyInfo" Key="Information" ValueName="Id">
       <Value>
-        <String>10.0.25880.0</String>
+        <String>10.0.25895.0</String>
       </Value>
     </Setting>
     <Setting Provider="PolicyInfo" Key="NoRevalidationUponRefresh" ValueName="NoRevalidationUponRefreshValue">
