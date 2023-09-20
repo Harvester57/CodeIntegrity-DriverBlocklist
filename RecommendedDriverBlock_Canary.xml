@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy">
-  <VersionEx>10.0.25895.0</VersionEx>
+  <VersionEx>10.0.25930.0</VersionEx>
   <PolicyTypeID>{D2BDA982-CCF6-4344-AC5B-0B44427B6816}</PolicyTypeID>
   <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
   <Rules>
@@ -549,6 +549,18 @@
     <Deny ID="ID_DENY_DIRECTIO_71" FriendlyName="DirectIO32\fac102ef0a36d2d7b4390776a9c3edded72e01e7316949179e6fbe23495121fb Hash Sha256" Hash="A9EB36FB737735DFF8245E1AA599054C0214FB9DE0CBA371357ED59FDE451308" />
     <Deny ID="ID_DENY_DIRECTIO_72" FriendlyName="DirectIO32\fac102ef0a36d2d7b4390776a9c3edded72e01e7316949179e6fbe23495121fb Hash Page Sha1" Hash="BCC1292F68AA179DA3EDFF5D5D6D1D991BEA7EB5" />
     <Deny ID="ID_DENY_DIRECTIO_73" FriendlyName="DirectIO32\fac102ef0a36d2d7b4390776a9c3edded72e01e7316949179e6fbe23495121fb Hash Page Sha256" Hash="AC8A4EE171C6E4905B370F7E01F6C11F7669BE4613E8DACACB5428B5E87DB390" />
+    <Deny ID="ID_DENY_ECHO_1" FriendlyName="Inspect EchoDriver\a41e9bb037cf1dc2237659b1158f0ed4e49b752b2f9dae4cc310933a9d1f1e47 Hash Sha1" Hash="503901E0DA00E491F28389F17CAFD1F1D5243C60" />
+    <Deny ID="ID_DENY_ECHO_2" FriendlyName="Inspect EchoDriver\a41e9bb037cf1dc2237659b1158f0ed4e49b752b2f9dae4cc310933a9d1f1e47 Hash Sha256" Hash="48DC7FD16AACDC8792F8BAD1B1F7CA9D675DDAC7767E957EA8C4227150D64E2D" />
+    <Deny ID="ID_DENY_ECHO_3" FriendlyName="Inspect EchoDriver\a41e9bb037cf1dc2237659b1158f0ed4e49b752b2f9dae4cc310933a9d1f1e47 Hash Page Sha1" Hash="0CE7E3B661DB16FBCFE93376127DC37EA23313A5" />
+    <Deny ID="ID_DENY_ECHO_4" FriendlyName="Inspect EchoDriver\a41e9bb037cf1dc2237659b1158f0ed4e49b752b2f9dae4cc310933a9d1f1e47 Hash Page Sha256" Hash="23C062104693B80CEC745DEC40B433D0D0B683C63496740B943CCB0D22F7361B" />
+    <Deny ID="ID_DENY_ECHO_5" FriendlyName="Inspect EchoDriver\ada2b855757c9062231f5ed4e80365b8d8094e9adbce8f26d1ff5ea0b7a70c77 Hash Sha1" Hash="18CD81740893FA24F1AFBB9D187A60AF9C5B2902" />
+    <Deny ID="ID_DENY_ECHO_6" FriendlyName="Inspect EchoDriver\ada2b855757c9062231f5ed4e80365b8d8094e9adbce8f26d1ff5ea0b7a70c77 Hash Sha256" Hash="4160DAE22484062CCC3750CC9CAC8F929D8701694160A3B508715610814AA28D" />
+    <Deny ID="ID_DENY_ECHO_7" FriendlyName="Inspect EchoDriver\ada2b855757c9062231f5ed4e80365b8d8094e9adbce8f26d1ff5ea0b7a70c77 Hash Page Sha1" Hash="2EFC7864E1E8AA87EFFEB13A2A3402CDC64FB6D2" />
+    <Deny ID="ID_DENY_ECHO_8" FriendlyName="Inspect EchoDriver\ada2b855757c9062231f5ed4e80365b8d8094e9adbce8f26d1ff5ea0b7a70c77 Hash Page Sha256" Hash="3709D170C4F5A7668C9180AFBDB8A4F6E9EE6E6A6C048B55D34FEA9DAA253127" />
+    <Deny ID="ID_DENY_ECHO_9" FriendlyName="Inspect EchoDriver\ea3c5569405ed02ec24298534a983bcb5de113c18bc3fd01a4dd0b5839cd17b9 Hash Sha1" Hash="678620A9CC9E7FFE179BC5CDA0A2DD0597E231EE" />
+    <Deny ID="ID_DENY_ECHO_A" FriendlyName="Inspect EchoDriver\ea3c5569405ed02ec24298534a983bcb5de113c18bc3fd01a4dd0b5839cd17b9 Hash Sha256" Hash="92F9D73CEC5AB3352C4B3CBF4574D13B2E506CBA24CC74580E19E941063EAF7D" />
+    <Deny ID="ID_DENY_ECHO_B" FriendlyName="Inspect EchoDriver\ea3c5569405ed02ec24298534a983bcb5de113c18bc3fd01a4dd0b5839cd17b9 Hash Page Sha1" Hash="832832028D40A3CFD08D364554FCE0B4F37317FF" />
+    <Deny ID="ID_DENY_ECHO_C" FriendlyName="Inspect EchoDriver\ea3c5569405ed02ec24298534a983bcb5de113c18bc3fd01a4dd0b5839cd17b9 Hash Page Sha256" Hash="49ED19D5E1E122936035A48EA99FFD68CA4915578107888D5C2B0BB9E30E67C0" />
     <Deny ID="ID_DENY_EIO64_1" FriendlyName="Asus EIO64\b17507a3246020fa0052a172485d7b3567e0161747927f2edf27c40e310852e0 Hash Sha1" Hash="200BE5A696990EE97B4C3176234CDE46C3EBC2CE" />
     <Deny ID="ID_DENY_EIO64_2" FriendlyName="Asus EIO64\b17507a3246020fa0052a172485d7b3567e0161747927f2edf27c40e310852e0 Hash Sha256" Hash="72B36C64F0B349D7816C8E5E2D1A7F59807DE0C87D3F071A04DBC56BEC9C00DB" />
     <Deny ID="ID_DENY_EIO64_3" FriendlyName="Asus EIO64\b17507a3246020fa0052a172485d7b3567e0161747927f2edf27c40e310852e0 Hash Page Sha1" Hash="DB88BFE5F3DE4E3CC778FE456B542EC4135433A4" />
@@ -668,6 +680,14 @@
     <Deny ID="ID_DENY_MSIO_SHA256_3" FriendlyName="MsIo.sys Hash Sha256" Hash="BE0AF245444321E51F4DD8A90A19A0ABE05A060CBAD93701E23A02DF307957AE" />
     <Deny ID="ID_DENY_MSIO_SHA1_4" FriendlyName="MsIo.sys Hash Sha1" Hash="B2CD3A63D04EAE427BEDE6C6FE8FACBA91ECECBF" />
     <Deny ID="ID_DENY_MSIO_SHA256_4" FriendlyName="MsIo.sys Hash Sha256" Hash="D86D6732AC4D1CB41A2DCE40436B839C0DFDCEF9BA306CE5D0F97C0522ABFAC8" />
+    <Deny ID="ID_DENY_MSR_1" FriendlyName="Datapath msr.sys\6c6a4d07e95ab4212c2afefcb0ce37dc485fa56120b0419b636bd8bd326038c1.sys Hash Sha1" Hash="381CC2B974D440EDEA0BBC010C4BEF4CDC2169B7" />
+    <Deny ID="ID_DENY_MSR_2" FriendlyName="Datapath msr.sys\6c6a4d07e95ab4212c2afefcb0ce37dc485fa56120b0419b636bd8bd326038c1.sys Hash Sha256" Hash="D23F28169D6E5C09A89E5136A4FF899A3B6F886535BB0254A27DD00A2753C412" />
+    <Deny ID="ID_DENY_MSR_3" FriendlyName="Datapath msr.sys\6c6a4d07e95ab4212c2afefcb0ce37dc485fa56120b0419b636bd8bd326038c1.sys Hash Page Sha1" Hash="5CB0D5676E465F6F389BED975B426705AC30DBC6" />
+    <Deny ID="ID_DENY_MSR_4" FriendlyName="Datapath msr.sys\6c6a4d07e95ab4212c2afefcb0ce37dc485fa56120b0419b636bd8bd326038c1.sys Hash Page Sha256" Hash="F05027D011C6123FA6EFB78AEA60528568FC80F6D9FD5CD1232F9B79B4216D3B" />
+    <Deny ID="ID_DENY_MSR_5" FriendlyName="Datapath msr.sys\ede9a3858a12d5ddea21a310e5721bf86c2248539f42c9e0c3c29ae5b0148ba5 Hash Sha1" Hash="2146BF058139453C0447786D6F6D5FC454AB955F" />
+    <Deny ID="ID_DENY_MSR_6" FriendlyName="Datapath msr.sys\ede9a3858a12d5ddea21a310e5721bf86c2248539f42c9e0c3c29ae5b0148ba5 Hash Sha256" Hash="1F8812611CF7120E89E769CC908FABC0C9E49B27FDED8DDE6A3DE51D9CE34F09" />
+    <Deny ID="ID_DENY_MSR_7" FriendlyName="Datapath msr.sys\ede9a3858a12d5ddea21a310e5721bf86c2248539f42c9e0c3c29ae5b0148ba5 Hash Page Sha1" Hash="81DE92B2555D9A29C5E48CB4893ADF0131EAD233" />
+    <Deny ID="ID_DENY_MSR_8" FriendlyName="Datapath msr.sys\ede9a3858a12d5ddea21a310e5721bf86c2248539f42c9e0c3c29ae5b0148ba5 Hash Page Sha256" Hash="CA90FFB147D600E7F42E8790CBD9FE7D69C7463DE88B08723E210750E1E272BD" />
     <Deny ID="ID_DENY_NVFLASH_1" FriendlyName="nvflash.sys\0a89a6ab2fca486480b6e3dacf392d6ce0c59a5bdb4bcd18d672feb4ebb0543c Hash Sha1" Hash="213C4EC78132D6C0FDFDD7B640107E0CE4990A0E" />
     <Deny ID="ID_DENY_NVFLASH_2" FriendlyName="nvflash.sys\0a89a6ab2fca486480b6e3dacf392d6ce0c59a5bdb4bcd18d672feb4ebb0543c Hash Sha256" Hash="91EE89520105CCBCECA6EE0E34070F28C8DC5A3D73EC65F384DA5DA4F2A36DC0" />
     <Deny ID="ID_DENY_NVFLASH_3" FriendlyName="nvflash.sys\0a89a6ab2fca486480b6e3dacf392d6ce0c59a5bdb4bcd18d672feb4ebb0543c Hash Page Sha1" Hash="C24D6F9132486AF1EB2937D9366275126A5A35E1" />
@@ -1058,7 +1078,7 @@
     <Deny ID="ID_DENY_DBK_32" FriendlyName="Cheat Engine Driver" FileName="dbk32.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <Deny ID="ID_DENY_DBK_64" FriendlyName="Cheat Engine Driver" FileName="dbk64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <Deny ID="ID_DENY_GDRV" FriendlyName="gdrv.sys" FileName="gdrv.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535"/>
-    <Deny ID="ID_DENY_KLMD" FriendlyName="Kaspersky klmd.sys FileRule" FileName="klmd.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535"/>
+    <Deny ID="ID_DENY_KLMD" FriendlyName="Kaspersky klmd.sys FileRule" FileName="klmd.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="2.13.0.10"/>
     <Deny ID="ID_DENY_PCHUNTER_1" FriendlyName="PCHunter Driver" FileName="PCHunter.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <Deny ID="ID_DENY_PCHUNTER_2" FriendlyName="PCHunter Driver" FileName="安全专用" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <Deny ID="ID_DENY_PHYMEMX_64" FriendlyName="Phymemx64 Memory Mapping Driver" FileName="phymemx64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
@@ -1068,6 +1088,7 @@
     <FileAttrib ID="ID_FILEATTRIB_ASR_AUTOCHECK_1" FriendlyName="ASRAutoCheck\2aa1b08f47fbb1e2bd2e4a492f5d616968e703e1359a921f62b38b8e4662f0c4 FileAttribute" FileName="AsrAutoChkUpdDrv.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_ASR_AUTOCHECK_2" FriendlyName="ASRAutoCheck\4ae42c1f11a98dee07a0d7199f611699511f1fb95120fabc4c3c349c485467fe FileAttribute" FileName="AsrAutoChkUpdDrv_1_0_32.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_ASWARPOT" FriendlyName="Avast aswArpot FileAttribute" FileName="aswArPot.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="21.4.65535.65535" />
+    <FileAttrib ID="ID_FILEATTRIB_ASWSP" FriendlyName="Avast aswSP.sys\1dccd1e13da17bd541a66b48d62e914df390818c15f5f599c636d42c05996ace FileAttribute" FileName="aswSP.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="20.8.0.0"/>
     <FileAttrib ID="ID_FILEATTRIB_ATILLK" FriendlyName="atillk64 FileAttribute" FileName="atillk64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_ATSZIO" FriendlyName="ATSZIO.sys FileAttribute" FileName="ATSZIO.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_AVGELAM" FriendlyName="Avast aswElam/avgElam Overpermissive ELAM FileAttribute" FileName="aswElam.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="21.6.400.65535" />
@@ -1079,15 +1100,16 @@
     <FileAttrib ID="ID_FILEATTRIB_BS_MEM" FriendlyName="BSMEM64_W10 FileAttribute" FileName="BSMEM64_W10.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="10.0.1806.2201" />
     <FileAttrib ID="ID_FILEATTRIB_BS_RCIO" FriendlyName="BS_RCIO\d205286bffdf09bc033c09e95c519c1c267b40c2ee8bab703c6a2d86741ccd3e FileAttribute" FileName="BS_RCIO64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_BS_RCIO_W10" FriendlyName="BS_RCIO\7c6f16af074c3f1c74fc69734f1c8b8a03b0594ac2085d5a0c582fc8cc378858 FileAttribute" FileName="BS_RCIO64_W10.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
-    <FileAttrib ID="ID_FILEATTRIB_NTIOLIB" FriendlyName="" FileName="NTIOLib.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_CORSAIRLLACCESS" FriendlyName="CorsairLLAccess\000547560fea0dd4b477eb28bf781ea67bf83c748945ce8923f90fdd14eb7a4b FileAttribute" FileName="Corsair LL Access" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.0.23.65535" />
     <FileAttrib ID="ID_FILEATTRIB_CPUZ_DRIVER" FriendlyName="" FileName="cpuz.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.0.4.3" />
     <FileAttrib ID="ID_FILEATTRIB_DRIVER7" FriendlyName="Asus driver7.sys\1beb15c90dcf7a5234ed077833a0a3e900969b60be1d04fcebce0a9f8994bdbb FileAttribute" FileName="Driver7" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535"/>
     <FileAttrib ID="ID_FILEATTRIB_EIO64" FriendlyName="ASUS EIO64.sys\1fac3fab8ea2137a7e81a26de121187bf72e7d16ffa3e9aec3886e2376d3c718 FileAttribute" FileName="EIO.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535"/>
     <FileAttrib ID="ID_FILEATTRIB_EELAM" FriendlyName="ESET eelam Overpermissive ELAM FileAttribute" FileName="eelam.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="10.0.16.0" />
     <FileAttrib ID="ID_FILEATTRIB_ELBY_DRIVER" FriendlyName="" FileName="ElbyCDIO.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="6.0.3.2" />
+    <FileAttrib ID="ID_FILEATTRIB_ETDSUPPORT" FriendlyName="HP EtdSupport\0d383e469d0e27ebb713770f01f7f1a57068a7d30478221e6f2276125048d1c9 FileAttribute" FileName="etdsupp.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_FAIRPLAY" FriendlyName="Deny FairplayKD.sys MTA San Andreas Versions 367.*" ProductName="MTA San Andreas" MinimumFileVersion="367.0.0.0" MaximumFileVersion="367.65535.65535.65535"/>
     <FileAttrib ID="ID_FILEATTRIB_GMER" FriendlyName="GMEREK gmer64 FileAttribute" FileName="gmer64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
-    <FileAttrib ID="ID_FILEATTRIB_HAXM" FriendlyName="haXM.sys FileAttribute" FileName="HaXM.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
+    <FileAttrib ID="ID_FILEATTRIB_HAXM" FriendlyName="haXM.sys FileAttribute" FileName="HaXM.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.0.0.0" />
     <FileAttrib ID="ID_FILEATTRIB_HPPORTIOX64" FriendlyName="HpPortIox64.sys" FileName="HpPortIox64.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.2.0.9" />
     <FileAttrib ID="ID_FILEATTRIB_HW" FriendlyName="hw_sys\4880f40f2e557cff38100620b9aa1a3a753cb693af16cd3d95841583edcb57a8 FileAttribute" FileName="HW.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="4.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_HWINFO_1" FriendlyName="REALiX_HWiNFO32 FileAttribute" FileName="HWiNFO32.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="8.98.0.0" />
@@ -1108,6 +1130,7 @@
     <FileAttrib ID="ID_FILEATTRIB_NCHGBIOS2X64" FriendlyName="" FileName="NCHGBIOS2x64.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="4.2.4.0" />
     <FileAttrib ID="ID_FILEATTRIB_NICM_DRIVER" FriendlyName="" FileName="NICM.SYS" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.1.11.0" />
     <FileAttrib ID="ID_FILEATTRIB_NSCM_DRIVER" FriendlyName="" FileName="nscm.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="3.1.11.0" />
+    <FileAttrib ID="ID_FILEATTRIB_NTIOLIB" FriendlyName="" FileName="NTIOLib.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.0.0.0" />
     <FileAttrib ID="ID_FILEATTRIB_NVFLASH" FriendlyName="Nvidia NVFlash FileAttribute" FileName="nvflash.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="1.9.65535.65535"/>
     <FileAttrib ID="ID_FILEATTRIB_OPENLIBSYS" FriendlyName="OpenLibSys\91314768da140999e682d2a290d48b78bb25a35525ea12c1b1f9634d14602b2c FileAttribute" FileName="OpenLibSys.sys" MinimumFileVersion="0.0.0.0" MaximumFileVersion="65535.65535.65535.65535" />
     <FileAttrib ID="ID_FILEATTRIB_PANIOMON_1" FriendlyName="PanMonFltx64\06508aacb4ed0a1398a2b0da5fa2dbf7da435b56da76fd83c759a50a51c75caf FileAttribute" FileName="PanMonFltX64.sys" MinimumFileVersion="1.0.0.1" />
@@ -1146,11 +1169,13 @@
     <Signer ID="ID_SIGNER_VERISIGN_2010" Name="VeriSign Class 3 Code Signing 2010 CA">
       <CertRoot Type="TBS" Value="4843A82ED3B1F2BFBEE9671960E1940C942F688D" />
       <FileAttribRef RuleID="ID_FILEATTRIB_AMDPP" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ASWSP" />
       <FileAttribRef RuleID="ID_FILEATTRIB_ASR_AUTOCHECK_1" />
       <FileAttribRef RuleID="ID_FILEATTRIB_ASR_AUTOCHECK_2" />
       <FileAttribRef RuleID="ID_FILEATTRIB_ATSZIO" />
       <FileAttribRef RuleID="ID_FILEATTRIB_CPUZ_DRIVER" />
       <FileAttribRef RuleID="ID_FILEATTRIB_DRIVER7" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ETDSUPPORT" />
       <FileAttribRef RuleID="ID_FILEATTRIB_IOMEM" />
       <FileAttribRef RuleID="ID_FILEATTRIB_IQVW64" />
       <FileAttribRef RuleID="ID_FILEATTRIB_KEVP64" />
@@ -1268,6 +1293,8 @@
       <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
       <FileAttribRef RuleID="ID_FILEATTRIB_AMD_RYZEN" />
       <FileAttribRef RuleID="ID_FILEATTRIB_AMDPP" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ASWSP" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ETDSUPPORT" />
       <FileAttribRef RuleID="ID_FILEATTRIB_HWRWDRV" />
       <FileAttribRef RuleID="ID_FILEATTRIB_IQVW64" />
       <FileAttribRef RuleID="ID_FILEATTRIB_TREND_MICRO" />
@@ -1288,6 +1315,7 @@
       <FileAttribRef RuleID="ID_FILEATTRIB_BS_MEM" />
       <FileAttribRef RuleID="ID_FILEATTRIB_BS_RCIO" />
       <FileAttribRef RuleID="ID_FILEATTRIB_BS_RCIO_W10" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_CORSAIRLLACCESS" />
       <FileAttribRef RuleID="ID_FILEATTRIB_CPUZ_DRIVER" />
       <FileAttribRef RuleID="ID_FILEATTRIB_HAXM" />
       <FileAttribRef RuleID="ID_FILEATTRIB_HW" />
@@ -1382,6 +1410,7 @@
     <Signer ID="ID_SIGNER_SYMANTEC_CLASS_3" Name="Symantec Class 3 SHA256 Code Signing CA">
       <CertRoot Type="TBS" Value="A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1" />
       <FileAttribRef RuleID="ID_FILEATTRIB_AMD_RYZEN" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ASWSP" />
       <FileAttribRef RuleID="ID_FILEATTRIB_AMDPP" />
       <FileAttribRef RuleID="ID_FILEATTRIB_RZPNK" />
       <FileAttribRef RuleID="ID_FILEATTRIB_TREND_MICRO" />
@@ -1628,11 +1657,13 @@
       <CertRoot Type="TBS" Value="E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65" />
       <CertPublisher Value="Avast Software s.r.o." />
       <FileAttribRef RuleID="ID_FILEATTRIB_ASWARPOT" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ASWSP" />
     </Signer>
     <Signer ID="ID_SIGNER_ASWARPOT_5" Name="DigiCert High Assurance Code Signing CA-1">
       <CertRoot Type="TBS" Value="1D7E838ACCD498C2E5BA9373AF819EC097BB955C" />
       <CertPublisher Value="AVAST Software s.r.o." />
       <FileAttribRef RuleID="ID_FILEATTRIB_ASWARPOT" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ASWSP" />
     </Signer>
     <Signer ID="ID_SIGNER_ASWARPOT_6" Name="DigiCert SHA2 Assured ID Code Signing CA">
       <CertRoot Type="TBS" Value="E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65" />
@@ -1809,6 +1840,11 @@
       <CertRoot Type="TBS" Value="D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE" />
       <CertOemID Value="Micks Auto Transport" />
     </Signer>
+    <Signer ID="ID_SIGNER_ETDSUPPORT" Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="HP Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_ETDSUPPORT" />
+    </Signer>
     <Signer ID="ID_SIGNER_BAOJI" Name="VeriSign Class 3 Code Signing 2010 CA - Baoji zhihengtaiye co.,ltd">
       <CertRoot Type="TBS" Value="ED37AD43BC52426943019F77F35ED1A6B063B5B7" />
     </Signer>
@@ -1886,6 +1922,7 @@
           <DeniedSigner SignerId="ID_SIGNER_DIGICERT_EV" />
           <DeniedSigner SignerId="ID_SIGNER_ELBY" />
           <DeniedSigner SignerId="ID_SIGNER_ENE" />
+          <DeniedSigner SignerId="ID_SIGNER_ETDSUPPORT" />
           <DeniedSigner SignerId="ID_SIGNER_FAIRPLAY_1" />
           <DeniedSigner SignerId="ID_SIGNER_FAIRPLAY_2" />
           <DeniedSigner SignerId="ID_SIGNER_FAIRPLAY_3" />
@@ -2477,6 +2514,18 @@
           <FileRuleRef RuleID="ID_DENY_DIRECTIO_71" />
           <FileRuleRef RuleID="ID_DENY_DIRECTIO_72" />
           <FileRuleRef RuleID="ID_DENY_DIRECTIO_73" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_1" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_2" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_3" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_4" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_5" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_6" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_7" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_8" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_9" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_A" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_B" />
+          <FileRuleRef RuleID="ID_DENY_ECHO_C" />
           <FileRuleRef RuleID="ID_DENY_EIO64_1" />
           <FileRuleRef RuleID="ID_DENY_EIO64_2" />
           <FileRuleRef RuleID="ID_DENY_EIO64_3" />
@@ -2597,6 +2646,14 @@
           <FileRuleRef RuleID="ID_DENY_MSIO_SHA256_3" />
           <FileRuleRef RuleID="ID_DENY_MSIO_SHA1_4" />
           <FileRuleRef RuleID="ID_DENY_MSIO_SHA256_4" />
+          <FileRuleRef RuleID="ID_DENY_MSR_1" />
+          <FileRuleRef RuleID="ID_DENY_MSR_2" />
+          <FileRuleRef RuleID="ID_DENY_MSR_3" />
+          <FileRuleRef RuleID="ID_DENY_MSR_4" />
+          <FileRuleRef RuleID="ID_DENY_MSR_5" />
+          <FileRuleRef RuleID="ID_DENY_MSR_6" />
+          <FileRuleRef RuleID="ID_DENY_MSR_7" />
+          <FileRuleRef RuleID="ID_DENY_MSR_8" />
           <FileRuleRef RuleID="ID_DENY_NVFLASH_1" />
           <FileRuleRef RuleID="ID_DENY_NVFLASH_2" />
           <FileRuleRef RuleID="ID_DENY_NVFLASH_3" />
@@ -3010,7 +3067,7 @@
     </Setting>
     <Setting Provider="PolicyInfo" Key="Information" ValueName="Id">
       <Value>
-        <String>10.0.25895.0</String>
+        <String>10.0.25930.0</String>
       </Value>
     </Setting>
     <Setting Provider="PolicyInfo" Key="NoRevalidationUponRefresh" ValueName="NoRevalidationUponRefreshValue">
